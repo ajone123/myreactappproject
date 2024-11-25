@@ -27,7 +27,6 @@ function HomePage() {
             <Navbar />
             <header className="home-header">
                 <img src="/img/Clarksponfoot.jpg" alt="Home Banner" className="home-banner" />
-                <img src="/img/ClorksLogo.jpg" alt="Clarks Logo" className="page-logo" />  {/* Ensure this path is correct */}
                 <h1>Welcome to Jamrock Clarks Store</h1>
                 <h2>Clarks & Dancehall</h2>
                 <p>Somerset, historically in South West England, Somersetshire is a ceremonial county.</p>
