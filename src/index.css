@@ -1,0 +1,31 @@
+/* Reset some basic elements to avoid cross-browser issues */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up default font and background color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Ensure images and other media elements are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Add some basic styling to links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

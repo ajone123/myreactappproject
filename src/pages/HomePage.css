@@ -1,0 +1,46 @@
+.home-header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.page-logo {
+    width: 150px;  /* Adjust size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.home-banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.featured-products {
+    margin: 20px;
+    text-align: center;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #df8484;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #445344;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
