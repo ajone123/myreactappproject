@@ -1,7 +1,14 @@
+// index.js or App.js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/global.css'; // Import the global CSS file
 import App from './App';
-import './index.css';  // Import global CSS
+import { CartProvider } from './contexts/CartContext';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(
+  <React.StrictMode>
+    <CartProvider>
+      <App />
+    </CartProvider>
+  </React.StrictMode>,
+  document.getElementById('root')
+);
